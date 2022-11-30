@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">696974774683-po8aa7eeksdgchch1tegfphlsk7okhv3.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">696974774683</string>
+    <string name="google_api_key" translatable="false">AIzaSyD5wY2mPnq-YI7SIm07andpLYp6NoGxtVs</string>
+    <string name="google_app_id" translatable="false">1:696974774683:android:bfb0a4a2945d3b938a513e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD5wY2mPnq-YI7SIm07andpLYp6NoGxtVs</string>
+    <string name="google_storage_bucket" translatable="false">binja-6b391.appspot.com</string>
+    <string name="project_id" translatable="false">binja-6b391</string>
+</resources>

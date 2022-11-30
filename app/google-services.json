@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "696974774683",
+    "project_id": "binja-6b391",
+    "storage_bucket": "binja-6b391.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696974774683:android:bfb0a4a2945d3b938a513e",
+        "android_client_info": {
+          "package_name": "com.app.fuse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696974774683-shhurmlbfl09nvaommevu74thcpmd6u4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fuse",
+            "certificate_hash": "52ff396e5ece9614444b0e8e8dcdeb7d487ca5e6"
+          }
+        },
+        {
+          "client_id": "696974774683-po8aa7eeksdgchch1tegfphlsk7okhv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5wY2mPnq-YI7SIm07andpLYp6NoGxtVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696974774683-po8aa7eeksdgchch1tegfphlsk7okhv3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "696974774683-tu9680ecuelrem2n47vbm5f4dum8kauf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.binja.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

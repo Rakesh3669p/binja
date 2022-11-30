@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="15dp"
+    android:layout_marginRight="5dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    android:id="@+id/nearByFriendsCV"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profileImageSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@drawable/image_gradient"
+            android:scaleType="fitXY"
+            android:src="@drawable/rashi_khanna" />
+
+        <TextView
+            android:id="@+id/userNameSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:singleLine="true"
+            android:text="User Name"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/userAgeSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userNameSearch"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/age_lbl"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sendRequestCVSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userAgeSearch"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/red"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="4dp"
+                android:text="@string/request_lbl"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/acceptRequestCVSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userAgeSearch"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="4dp"
+                android:text="@string/accept_lbl"
+                android:textColor="@color/red"
+                android:textSize="12dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pendingRequestCVSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userAgeSearch"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/red_lite"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="4dp"
+                android:text="@string/pending_lbl"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sendMessageCVSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userAgeSearch"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/red"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="4dp"
+                android:text="@string/send_msg_lbl"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- <androidx.cardview.widget.CardView
+             android:visibility="gone"
+             android:id="@+id/acceptRequestCVSearch"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/userAgeSearch"
+             android:layout_marginLeft="12dp"
+             android:layout_marginTop="5dp"
+             app:cardBackgroundColor="@color/red"
+             app:cardCornerRadius="5dp">
+
+             <TextView
+                 android:id="@+id/edtProfileSearchCV"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/nunito_sans_bold"
+                 android:paddingHorizontal="12dp"
+                 android:paddingVertical="4dp"
+                 android:text="@string/accept_lbl"
+                 android:textColor="@color/white"
+                 android:textSize="12dp" />
+
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:visibility="gone"
+             android:id="@+id/sendMessageCVSearch"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/userAgeSearch"
+             android:layout_marginLeft="12dp"
+             android:layout_marginTop="5dp"
+             app:cardBackgroundColor="@color/red"
+             app:cardCornerRadius="5dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/nunito_sans_bold"
+                 android:paddingHorizontal="12dp"
+                 android:paddingVertical="4dp"
+                 android:text="@string/send_msg_lbl"
+                 android:textColor="@color/white"
+                 android:textSize="12dp" />
+
+
+         </androidx.cardview.widget.CardView>-->
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

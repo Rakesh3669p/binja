@@ -1,0 +1,122 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Fuse</string>
+    <string name="map_key">AIzaSyDjgo0GXGIXOvwqM2TWpdxC-tAhhd0Tg7Q</string>
+
+    <string name="banner_ad_key">ca-app-pub-4320211863062137/2868513751</string>
+    <string name="google_ad_application_id">ca-app-pub-4320211863062137~5378578288</string>
+    <string name="default_notification_channel_id">120</string>
+    <!--    <string name="map_key">AIzaSyD6dYxu1qeyLFAQJ9aqaQQTs5rifQkraz0</string>-->
+
+
+    <string name="welcome_lbl">Helping you decide</string>
+    <string name="login_lbl">Log In</string>
+    <string name="login_txt">Login</string>
+    <string name="lets_start_txt">Let\'s Start</string>
+    <string name="no_friends_lbl">No Friends to Show</string>
+    <string name="no_friends_movies_lbl">No Friends Matched with this Movie </string>
+    <string name="no_movies_matchec_lbl">No Movies Matched with this Friend</string>
+
+
+    <string name="signin_lbl">Sign In</string>
+    <string name="signup_lbl">Sign Up</string>
+    <string name="signup_desc">Don\'t have an account?</string>
+
+    <string name="had_acccount_desc">Already have an account?</string>
+
+    <string name="email_lbl">Email</string>
+    <string name="select_all">Select ALL</string>
+    <string name="email_username_lbl">Email / Username</string>
+    <string name="email_hint">Enter Email address Or Phone</string>
+    <string name="email_username_hint">Enter Email Address Or Username</string>
+    <string name="search_hint">Search Your Friends</string>
+    <string name="movie_type_hint">Select your movie type</string>
+    <string name="channel_search_hint">Select your channel</string>
+    <string name="start_match">Start Match</string>
+    <string name="play_match">Play Match</string>
+    <string name="match_in_progress">Match In Progress</string>
+    <string name="no_match_in_progress">No On Going Matches....</string>
+    <string name="matching_with_you">Matching With You</string>
+    <string name="matches_lbl">Matches</string>
+    <string name="message">Message</string>
+
+    <string name="username_lbl">Username</string>
+    <string name="username_hint">Enter Username</string>
+
+    <string name="password_lbl">Password</string>
+    <string name="confirm_password_lbl">Confirm Password</string>
+
+    <string name="password_hint">Enter Password</string>
+    <string name="confirm_password_hint">Enter Confirm Password</string>
+    <string name="login_forgot_pwd_lbl">Forgot Password?</string>
+
+    <string name="send_request_lbl">Send Request</string>
+    <string name="send_msg_lbl">Send Message</string>
+
+    <string name="forgot_pwd_lbl">Forgot Password</string>
+
+    <string name="hello_blank_fragment">fragment</string>
+
+    <string name="home_lbl">Home</string>
+    <string name="filter_lbl">Filter</string>
+    <string name="channel_filter_lbl">Select Channel\'s</string>
+    <string name="genre_filter_lbl">Select Genre\'s</string>
+    <string name="homeListlbl">Your Friends &amp; Connection List</string>
+    <string name="subcChannellbl">Subscription Channel</string>
+    <string name="movie_type_lbl">Movie Type</string>
+
+    <string name="search_lbl">Search</string>
+    <string name="nearbyfriends_lbl">Near by Friends</string>
+    <string name="nearbyUsers_lbl">Near by Users</string>
+    <string name="nearbyUser_lbl">Nearby Users</string>
+    <string name="searchListlbl">People you may know</string>
+
+
+    <string name="message_lbl">Messages</string>
+    <string name="profile_lbl">Profile</string>
+    <string name="movie_matched_lbl">Movie\'s Matched</string>
+    <string name="edit_profile_lbl">Edit Profile</string>
+    <string name="age_lbl">Age</string>
+    <string name="profile_age_lbl">Age:</string>
+    <string name="designation_lbl">Designation</string>
+    <string name="bio_lbl">Bio</string>
+    <string name="request_lbl">Request</string>
+    <string name="movie_rating">rating</string>
+    <string name="requested_lbl">Requested</string>
+    <string name="rejected_lbl">Rejected</string>
+    <string name="received_request_lbl">Received Request</string>
+    <string name="sent_request_lbl">Sent Request</string>
+    <string name="friends_lbl">Friends</string>
+
+    <string name="img_desc">Image</string>
+    <string name="accept_lbl">Accept</string>
+    <string name="reject_lbl">Reject</string>
+    <string name="continue_lbl">Continue</string>
+
+    <string name="pending_lbl">Requested</string>
+    <string name="no_more_movies">No More Movies to Show...</string>
+    <string name="cancel_lbl">Cancel</string>
+    <string name="accepted_lbl">Accepted</string>
+    <string name="settings_lbl">Settings</string>
+    <string name="top_pickup">Top Pickups</string>
+    <string name="top_matches">Top Matches</string>
+    <string name="recent_search">Recent Search</string>
+    <string name="no_matches_found">No Matches found.</string>
+    <string name="search_result_lbl">Your Search Result Appears Here.....</string>
+
+    <string name="allow_digits">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789_.&amp;</string>
+    <string name="location_lbl">Location</string>
+    <string name="location_hint">Enter your location</string>
+    <string name="designation_hint">Enter your Designation</string>
+    <string name="age_hint">Enter your age</string>
+    <string name="update_lbl">Update</string>
+    <string name="str_validate_email">Please Enter a Valid User Name</string>
+    <string name="str_validate_age">Please Enter a Valid Age</string>
+    <string name="str_validate_address">Please Enter a Valid Address</string>
+    <string name="str_validate_designation">Please Enter a Valid Designation</string>
+    <string name="str_no_internet_connection">No Internet Connection</string>
+    <string name="str_network_failure">Network Failure</string>
+    <string name="type_your_message_hint">Type Your Message...</string>
+    <string name="game_overlbl">Game Over...</string>
+
+
+</resources>

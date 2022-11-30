@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.maps.android:android-maps-utils:0.4.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a1edcd8e34fda7a87ba23ad6eb19fbd/jetified-android-maps-utils-0.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a1edcd8e34fda7a87ba23ad6eb19fbd/jetified-android-maps-utils-0.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a1edcd8e34fda7a87ba23ad6eb19fbd/jetified-android-maps-utils-0.4.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2afd92d4a35ee2f3e0b76b4dff87cc2/jetified-android-maps-utils-0.4.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2afd92d4a35ee2f3e0b76b4dff87cc2/jetified-android-maps-utils-0.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2afd92d4a35ee2f3e0b76b4dff87cc2/jetified-android-maps-utils-0.4.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da294d08b2b078a1cac3ba208502d20c/jetified-android-maps-utils-0.4.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da294d08b2b078a1cac3ba208502d20c/jetified-android-maps-utils-0.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da294d08b2b078a1cac3ba208502d20c/jetified-android-maps-utils-0.4.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0906528bd3e20a998576ad68945b670c/jetified-android-maps-utils-0.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0906528bd3e20a998576ad68945b670c/jetified-android-maps-utils-0.4.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0906528bd3e20a998576ad68945b670c/jetified-android-maps-utils-0.4.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/caac95930c3d7dbd366e65f559274df7/transformed/jetified-android-maps-utils-0.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/caac95930c3d7dbd366e65f559274df7/transformed/jetified-android-maps-utils-0.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/caac95930c3d7dbd366e65f559274df7/transformed/jetified-android-maps-utils-0.4.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/217bf7f737202a3e106191883f6c1d06/transformed/jetified-android-maps-utils-0.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/217bf7f737202a3e106191883f6c1d06/transformed/jetified-android-maps-utils-0.4.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/217bf7f737202a3e106191883f6c1d06/transformed/jetified-android-maps-utils-0.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5446bf996104b7e52992bcda093d2a7/transformed/jetified-android-maps-utils-0.4.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e5446bf996104b7e52992bcda093d2a7/transformed/jetified-android-maps-utils-0.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5446bf996104b7e52992bcda093d2a7/transformed/jetified-android-maps-utils-0.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02175b9c3250a9c3bee871d44020ccba/transformed/jetified-android-maps-utils-0.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02175b9c3250a9c3bee871d44020ccba/transformed/jetified-android-maps-utils-0.4.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/02175b9c3250a9c3bee871d44020ccba/transformed/jetified-android-maps-utils-0.4.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

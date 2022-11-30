@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:fitsSystemWindows="true"
+    android:background="@drawable/background_gradient"
+    tools:context=".ui.movieswipe.MovieFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/stackLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    <com.yuyakaido.android.cardstackview.CardStackView
+        android:id="@+id/movieListStack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerAd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp"
+            ads:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
+            ads:adSize="FULL_BANNER"
+            android:layout_alignParentBottom="true"
+            ads:adUnitId="@string/banner_ad_key"/>
+
+    </RelativeLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/noMoreMovielbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_more_movies"
+        android:textColor="@color/white_800"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/backMovieStack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="15dp"
+        android:paddingLeft="15dp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/shareMovieStack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="5dp"
+        android:padding="10dp"
+        android:src="@drawable/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/searchMovieStack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:src="@drawable/searchle"
+        app:layout_constraintEnd_toStartOf="@+id/shareMovieStack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+<include
+    android:id="@+id/progressBar"
+    android:visibility="gone"
+    layout="@layout/progress_bar"/>
+    <include
+        android:id="@+id/movieMatched"
+    android:visibility="gone"
+    layout="@layout/fragment_match"/>
+    <include
+        android:id="@+id/popcorn_layout"
+        android:visibility="gone"
+        layout="@layout/popcorn_match"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/noMatchesFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_more_movies"
+        android:fontFamily="@font/nunito_semibold"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/stackLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
